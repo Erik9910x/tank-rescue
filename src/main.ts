@@ -2,6 +2,7 @@ import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import App from './App.vue'
 import TankRescue from './views/tank-rescue/index.vue'
+import './assets/main.css'
 
 const router = createRouter({
   history: createWebHistory(),
